@@ -1,0 +1,25 @@
+{
+    "name": "vris111/practika_serv_2packet",
+    "description": "some desk",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vris1111",
+            "email": "ruslansimanovic56@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "practika_serv_2packet\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+
+}
