@@ -18,7 +18,7 @@
             "practika_serv_2packet\\": "src/"
         },
         "files": [
-            "src/helpers.php"
+            "src/Validator.php"
         ]
     }
 

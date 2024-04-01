@@ -1,5 +1,7 @@
 <?php
-namespace practika_serv_2packet;
+namespace practika_serv_2packet\Validators;
+
+use practika_serv_2packet\AbstractValidator;
 
 class RequireValidator extends AbstractValidator
 {

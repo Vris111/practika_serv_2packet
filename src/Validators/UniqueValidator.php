@@ -1,6 +1,7 @@
 <?php
-namespace practika_serv_2packet;
+namespace practika_serv_2packet\Validators;
 use Illuminate\Database\Capsule\Manager as Capsule;
+use practika_serv_2packet\AbstractValidator;
 
 class UniqueValidator extends AbstractValidator
 {
