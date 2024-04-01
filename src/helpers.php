@@ -1,7 +1,9 @@
 <?php
 namespace DopPackForMW;
 
-function collection(array $array = []): DopPackForMW
+use Src\Validator\Validator;
+
+function collection(array $array = []): Validator
 {
-    return new DopPackForMW($array);
+    return new Validator($array);
 }
