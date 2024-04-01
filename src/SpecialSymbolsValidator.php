@@ -1,6 +1,5 @@
 <?php
-namespace practika_serv_2packet\Validators;
-use Src\Validator\AbstractValidator;
+namespace practika_serv_2packet;
 
 class SpecialSymbolsValidator extends AbstractValidator
 {

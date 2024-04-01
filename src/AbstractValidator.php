@@ -1,5 +1,5 @@
 <?php
-namespace Src\Validator;
+namespace practika_serv_2packet;
 abstract class AbstractValidator
 {
     protected string $field = '';

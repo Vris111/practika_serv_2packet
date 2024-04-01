@@ -1,9 +1,16 @@
 <?php
 namespace DopPackForMW;
 
-use Src\Validator\Validator;
 
-function collection(array $array = []): Validator
+function collection(array $array = []): RequireValidator
 {
-    return new Validator($array);
+    return new RequireValidator($array);
+}
+function collection1(array $array = []): SpecialSymbolsValidator
+{
+    return new SpecialSymbolsValidator($array);
+}
+function collection2(array $array = []): UniqueValidator
+{
+    return new UniqueValidator($array);
 }
